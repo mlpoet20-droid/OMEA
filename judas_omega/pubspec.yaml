@@ -1,0 +1,38 @@
+name: judas_omega
+description: Judas Ω – Post-Referential Trading System GUI
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Charts & Visualization
+  fl_chart: ^0.66.0
+
+  # State Management
+  provider: ^6.1.2
+
+  # Networking (broker APIs, data feeds)
+  http: ^1.2.0
+  web_socket_channel: ^2.4.0
+
+  # Local persistence (system memory, sessions, stats)
+  shared_preferences: ^2.2.3
+
+  # Math & utilities
+  intl: ^0.19.0
+
+  # UI enhancements
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
